@@ -3,6 +3,10 @@
 ## **Overview**
 This project evaluates the security vulnerabilities associated with password hashing algorithms and provides actionable recommendations to enhance password protection measures. Using Hashcat, an advanced password recovery tool, a security assessment was conducted to crack passwords hashed with the MD5 algorithm. The assessment highlighted weaknesses in the current password protection system and proposed strategies to mitigate risks. 
 
+### **4. Password Document Analysis**
+They provided a document, representing the password manager. It containes some of the Usernames and passwords to analyse.
+![image](https://github.com/user-attachments/assets/65ddd6ef-5e10-4cfd-a37c-d004f73ad5ed)
+
 ## **Assessment Methodology**
 - **Tool Used:** Hashcat, a GPU-based password recovery tool, was employed to test the strength of hashed passwords. 
 - **Algorithm Tested:** MD5 hashing algorithm, which converts passwords into 32-character hashed strings, was analyzed for vulnerabilities.
@@ -17,10 +21,6 @@ The organization's current password policy permits the use of only lowercase let
 
 ### **3. Cracked Password Results**
 ![password_crack](https://github.com/user-attachments/assets/e9de0bda-4a4f-4420-bd6c-b82135e8f291)
-
-
-### **4. Password Document Analysis**
-![image](https://github.com/user-attachments/assets/65ddd6ef-5e10-4cfd-a37c-d004f73ad5ed)
 
 ## **Recommendations**
 ### **1. Upgrade to Secure Hashing Algorithms**
